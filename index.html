@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- TODO: create treira website uysing DOM and vanilla JS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Treira</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu-container">
+            <div class="menu-container-inner flex">
+                <div class="logo-container">
+                    <img class="logo" src="/assets/img/Logo.png" alt="">
+                </div>
+                <div class="nav-container nav-flex">
+                    <ul class="main-navigation">
+                    
+                        <li><a href="#" type="button" class="btn btn-default btn-lg">acasa</a></li>
+                        <li><a href="#" type="button" onclick="dropDown(event)" class="btn-dropdown btn btn-default btn-lg " id="oferte">Oferte</a>
+                            <ul class="dropdown-menu dropdown-oferte" id="dropdown-1" role="menu">                                   
+                                <li><a href="#" class="btn-dropdown" onclick="dropDown(event)" id="produse">Produse Tipografice</a>    
+                                    <ul class="dropdown-menu dropdown2-tipografie" id="dropdown2-tipografie" >
+                                        <li><a href="#">Pliante/Flyere</a></li>
+                                        <li><a href="#">Mape/Cataloage</a></li>
+                                        <li><a href="#">Broșuri/Cărți</a></li>
+                                        <li><a href="#">Materiale școlare</a></li>
+                                        <li><a href="#">Diplome școlare</a></li>
+                                        <li><a href="#">Agende/Calendare</a></li>
+                                        <li><a href="#">Produse/Stoc</a></li>
+                                        <li><a href="#">Formulare fiscale</a></li>
+                                        <li><a href="#">Felicitări</a></li>
+                                    </ul>
+                                </li>                                   
+                                <li><a href="#" class="btn-dropdown" onclick="dropDown(event)" id="ambalaje">Ambalaje</a>
+                                    <ul class="dropdown-menu dropdown2-ambalaje" id="dropdown2-ambalaje">
+                                        <li><a href="#">Ambalaje din carton</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="btn-dropdown" onclick="dropDown(event)" id="servicii">Servicii</a>
+                                    <ul class="dropdown-menu dropdown2-servicii" id="dropdown2-servicii">
+                                        <li><a href="#">Servicii Tipografice</a></li>
+                                        <li><a href="#">Servicii Transport</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a id="solicitare" href="#" type="button" onclick="dropDown(event)" class="btn-dropdown btn btn-default btn-lg">SOLICITARE OFERTĂ</a>
+                            <ul class= "dropdown-menu dropdown-solicitare" id="dropdown-2">
+                            <li><a href="#">Tipărituri</a></li>
+                            <li><a href="#">Ambalaje</a></li>
+                            </ul>
+                        </li>
+                        <li><a id="link" href="#" type="button" class="btn  btn-default btn-lg">Noutăți</a></li>
+                        <li><a id="linkc" href="#" type="button" class="btn  btn-default btn-lg">Contact</a></li>
+                    
+                    </ul>   
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </header>
+    <script src="/assets/js/nav.js"></script>
+</body>
+</html>

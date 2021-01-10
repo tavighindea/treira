@@ -1,0 +1,108 @@
+/* body style */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+/* header style */
+.header{
+	background-image: url("/assets/img/Top\ Banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+    height: 275px;
+    margin: -10px -10px;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-container {
+    width: 100%;
+    z-index: 99;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.main-navigation {
+    display: flex;
+    
+}
+
+.menu-container-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    
+}
+
+.nav-container {
+    margin:50px 0 0;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav-flex {
+    display: flex;
+    flex-direction: column;
+}
+/* stilizarea meniului */
+.btn.btn-default.btn-lg {
+    font-size: 13px;
+}
+.btn-lg:hover {
+    background-image: url(/assets/img/pressed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#linkc {
+    background-image: url(/assets/img/contact0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+#solicitare:hover {
+    background-image: url(/assets/img/pressed2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#linkc:hover {
+    background-image: url(/assets/img/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* hides dropdowns */
+
+.dropdown-oferte,
+.dropdown-solicitare {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  text-decoration: none; 
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+
+.dropdown2-tipografie,
+.dropdown2-ambalaje,
+.dropdown2-servicii {
+    display: none;
+    left: 100%;
+}
