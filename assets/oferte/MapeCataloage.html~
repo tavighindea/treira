@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Treira</title>
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+<link rel="stylesheet" type="text/css" href="../style/bootstrap.css">
+<script type="text/javascript" src="../style/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../style/bootstrap.js"></script>
+</head>
+
+<body>
+	
+	<!--MENIU-->
+	<header>
+		<div id="top">
+			<div id="logo">
+				<img id="tlogo" src="../image/Logo.png" alt="logo">
+			</div>
+		
+			<nav>
+				<div id="frmSearch">
+						<input type="text" placeholder="Cautare">
+					</div>
+				<div class="btn-group" role="group" aria-label="Basic example">
+  					<a id="link" href="../index.html" type="button" class="btn  btn-default btn-lg">ACASA</a>
+  					<div class="btn-group">
+    						<button id="button" type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+    						OFERTE</button>
+   							<ul class="dropdown-menu" role="menu">
+      							 <div class="dropdown">
+									  <button class="dropbtn">Produse tipografice</button>
+									  <div class="dropdown-content">
+									    <li><a href="PlianteFlyere.html">Pliante/Flyere</a></li>
+		      							<li><a href="MapeCataloage.html">Mape/Cataloage</a></li>
+		      							<li><a href="BrosuriCarti.html">Brosuri/Carti</a></li>
+		      							<li><a href="MaterialeScolare.html">Materiale scolare</a></li>
+		      							<li><a href="Dipolmescolare.html">Diplome scolare</a></li>
+		      							<li><a href="AgendeCalendare.html">Agende/Calendare</a></li>
+		      							<li><a href="ProduseStoc.html">Produse/Stoc</a></li>
+		      							<li><a href="InvitatiiNunta.html">Invitatii de nunta</a></li>
+		      							<li><a href="Formulare.html">Formulare fiscale</a></li>
+		      							<li><a href="Felicitari.html">Felicitari</a></li>
+									  </div>
+								</div> 
+
+									 <div class="dropdown">
+									  <button id="ambalaj" class="dropbtn">Ambalaje</button>
+									  <div class="dropdown-content">
+									   <a href="Ambalaje.html">Ambalaje din carton</a>
+									   </div>
+									</div> 
+
+									 <div  class="dropdown">
+									  <button id="servicii" class="dropbtn">Servicii</button>
+									  <div class="dropdown-content">
+									    <a href="Serviciitipografice.html">Servicii tipografice</a>
+									    <a href="Serviciidetransport.html">Servicii de transport</a>
+									  </div>
+									</div> 
+    						</ul>
+  						</div>
+  					<div class="btn-group">
+    						<button id="double" type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+    						SOLICITARE OFERTA</button>
+   							<ul class="dropdown-menu" role="menu">
+      							<li><a href="../nav/OfertaTiparituri.html">Tiparituri</a></li>
+      							<li><a href="../nav/OfertaAmbalaje.html">Ambalaje</a></li>
+      							
+    						</ul>
+  						</div>
+ 						
+  					
+  					<a id="link" href="../nav/Noutati.html" type="button" class="btn  btn-default btn-lg">NOUTATI</a>
+				</div>
+					<a id="linkc" href="../nav/Contact.html" type="button" class="btn  btn-default btn-lg">CONTACT</a>
+					
+			</nav>
+		</div>
+	</header>
+	<!--MENIU-->
+
+
+
+	<!--CONTINUT-->
+	<div id="center">
+		<div id="content">
+			
+				<h2 class="titlu">Mape/Cataloage</h2>
+				<hr>
+				<p>Promovarea afacerii dumneavoastra se face mai usor cu ajutorul materialelor publicitare de calitate.</p>
+				<p>Va oferim modele variate de mape stantate, cataloage de produse capsate, spiralate, termolipite.</p>
+
+<div class="wrapper">
+<a href="mape&cataloage/mape&cataloage001.jpg"><img src="mape&cataloage/mape&cataloage001_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage006.jpg"><img src="mape&cataloage/mape&cataloage006_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage007.jpg"><img src="mape&cataloage/mape&cataloage007_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage012.jpg"><img src="mape&cataloage/mape&cataloage012_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage013.jpg"><img src="mape&cataloage/mape&cataloage013_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage019.jpg"><img src="mape&cataloage/mape&cataloage019_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage021.jpg"><img src="mape&cataloage/mape&cataloage021_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage025.jpg"><img src="mape&cataloage/mape&cataloage025_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage026.jpg"><img src="mape&cataloage/mape&cataloage026_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage029.jpg"><img src="mape&cataloage/mape&cataloage029_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage030.jpg"><img src="mape&cataloage/mape&cataloage030_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage031.jpg"><img src="mape&cataloage/mape&cataloage031_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage032.jpg"><img src="mape&cataloage/mape&cataloage032_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage033.jpg"><img src="mape&cataloage/mape&cataloage033_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage034.jpg"><img src="mape&cataloage/mape&cataloage034_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage035.jpg"><img src="mape&cataloage/mape&cataloage035_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage036.jpg"><img src="mape&cataloage/mape&cataloage036_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage037.jpg"><img src="mape&cataloage/mape&cataloage037_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage038.jpg"><img src="mape&cataloage/mape&cataloage038_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage039.jpg"><img src="mape&cataloage/mape&cataloage039_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage040.jpg"><img src="mape&cataloage/mape&cataloage040_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage042.jpg"><img src="mape&cataloage/mape&cataloage042_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage043.jpg"><img src="mape&cataloage/mape&cataloage043_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage045.jpg"><img src="mape&cataloage/mape&cataloage045_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage046.jpg"><img src="mape&cataloage/mape&cataloage046_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage049.jpg"><img src="mape&cataloage/mape&cataloage049_thumbnail.jpeg" width="290" height="180"></a>
+<a href="mape&cataloage/mape&cataloage050.jpg"><img src="mape&cataloage/mape&cataloage050_thumbnail.jpeg" width="290" height="180"></a>
+
+</div>
+				
+	</div>
+</div>
+</div>
+<!--CONTINUT-->
+
+<!--SUBSOL-->
+	<footer>
+		<div id="chenar">
+			<div class="wrapper">
+			<div id="adresa">
+				<ul>
+					<li>
+						<a target="_blank" class="jos" href="https://www.google.ro/maps/place/TREIRA+S.R.L./@47.0443736,21.9474613,17z/	data=!3m1!4b1!4m5!3m4!1s0x474647c60abe6247:0xe1f3369ffe957d11!8m2!3d47.04437!4d21.94965">Cum ne gasiti</a>
+					</li>
+					<li>
+						<a class="jos" href="../nav/Contact.html">Contact</a>
+					</li>
+					<li>
+						<a class="jos" href="https://www.facebook.com/www.treira.ro/">Pagina de Facebook</a>
+					</li>
+				</ul>
+			</div>
+
+			<ul>
+					<li>Telefon:<br> +40-259 419.480 <br> +40 259 467.402 <br> +40 359 411.720 <br> +40 359 411.721</li>
+					<li>
+						Fax: +40 259/419.482
+					</li>
+				</ul>
+			</div>
+
+
+			<div id="fstrip">
+				<ul>
+					<li>Program cu publicul<br> Luni-Vineri <br> 8-16:30</li>
+					<li>
+						<a class="jos" href="nav/Sugestii.html">Sugestii si Reclamatii</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<!--SUBSOL-->
+
+	<div id="grey">
+		<div id="cemail">
+		
+		<p id="email">email : office@treira.ro | comenzi@treira.ro | ambalaje@treira.ro</p>  
+		</div>
+	</div>
+	<div id="bbanner"></div>
+	<!--SUBSOL-->
+</body>
+
+ <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:Treira.ro' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+
+
+
+</html>
