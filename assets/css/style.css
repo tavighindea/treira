@@ -6,6 +6,14 @@ body {
     color: #333;
     background-color: #fff;
 }
+footer
+{
+	max-width: 100%;
+	height: 130px;
+	background-image: url("/assets/img/Footer\ Strip.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 /* header style */
 .header{
 	background-image: url("/assets/img/Top\ Banner.png");
@@ -248,4 +256,60 @@ article a{
 .btn.btn-default.btn-lg {
   font-size: 13px;
 }
+.adresa {
+  float: left;
+}
 
+.chenar
+{
+	max-width: 900px;
+	width: 80%;
+	margin: 0 auto;
+	height: 130px;
+
+}
+
+.orar
+{
+	padding-left: 30px;
+	max-width: 900px;
+	width: 200px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.fstrip
+{
+ 	margin-left: 200px;
+	width: 150px;
+	height: 130px;
+	background-image: url("/assets/img/fstrip.png");
+	background-repeat: no-repeat;
+	background-size: 130%;
+}
+
+.footer-ul {
+  padding: 15px 18px 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.footer-li {
+  font-size: 12px;
+  margin-bottom: 13px;
+  color: white;
+  text-decoration: none;
+}
+
+.jos {
+  color: white;
+}
+
+.bbanner
+{
+	height: 50px;
+	background-image: url("/assets/img/Bottom\ Banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

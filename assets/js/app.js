@@ -19,7 +19,8 @@
             new Route('oferta-tiparituri', 'oferta-tiparituri.html'),
             new Route('oferta-ambalaje', 'oferta-ambalaje.html'),
             new Route('noutati', 'noutati.html'),
-            new Route('contact', 'contact.html')
+            new Route('contact', 'contact.html'),
+            new Route('sugestii', 'sugestii.html')
         ]);
     }
     init();
