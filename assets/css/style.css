@@ -15,204 +15,215 @@ footer
 	background-repeat: no-repeat;
 }
 /* header style */
-.header{
+header
+{
 	background-image: url("/assets/img/Top\ Banner.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-  height: 275px;
-  margin: -10px -10px;
+	max-width: 100%;
+	height: 275px;
 }
 
-.header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+#top
+{
+	max-width: 900px;
+	width: 80%;
+	height: 275px;
+	margin: 0 auto;
 }
 
-.menu-container {
-    width: 100%;
-    z-index: 99;
+
+#logo
+{
+	
+	padding-bottom: 20px;
 }
 
-.nav-container a{
-  text-align: center;
+#tlogo
+{
+	border-radius:1px 1px 5px 5px;
+}
+
+
+nav
+{
+	padding-top: 50px;
+	max-width: 900px;
+	margin:0 auto;
+	height:100px;
+	font-size: 13px;
+}
+
+
+#frmSearch
+{
+	float: right;
+	margin-bottom: 5px;
+}
+
+
+input
+{
+	background-image: url("/assets/img/icon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 22px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 210px;
+	border-radius: 25px;
+}
+
+
+#double
+{
+	color: black;
+	text-decoration: none;
+	
+
+}
+
+#double:hover
+{
+	background-image: url("/assets/img/pressed2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#double:active
+{
+	background-image: url("/assets/img/state.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: none;
+
+}
+
+
+#link
+{
+	color: black;
+	text-decoration: none;
+}
+
+
+#link:hover{
+	background-image: url("/assets/img/pressed.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+#link:active{
+	background-image: url("/assets/img/state.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: none;
+	
+}
+
+
+#linkc
+{
+	background-image: url("/assets/img/contact0.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+#button:hover{
+	background-image: url("/assets/img/pressed.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+#button:active{
+	background-image: url("/assets/img/state.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: none;
+	
+}
+
+#linkc:hover
+{
+	background-image: url("/assets/img/contact.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#linkc:active
+{
+	background-image: url("/assets/img/conpressed.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dropbtn {
+
+padding: 10px;
+border: none;
+background-color: transparent;
+  
+}
+.dropbtn a {
   text-decoration: none;
   color: black;
-  text-transform: uppercase;
-    
+}
+  
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+    background-color: unset;
 }
 
-
-
-.menu-container-inner {
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: auto;
-    
-}
-
-
-.nav-container {
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
     position: absolute;
-    top: 190px;
-
-    max-width: 900px;
-}
-
-
-.flex {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.nav-flex {
-    display: flex;
-    flex-direction: column;
-}
-/* stilizarea meniului */
-ul, li {margin: 0;padding: 0;}
-
-nav ul li{
-    list-style-type:none;
-}
-
-nav { 
-    background:transparent; 
-    padding-top:3px; 
-    border-radius:3px;
-}
-
-/* styling main topbar */
-nav>ul{
-  height:2.6em;
-  background:transparent;
-  border-radius:3px;
-}
-/* important to keep submenu at their position */
-nav>ul li{position:relative;}
-/*styling topbar navigation items */
-nav>ul>li{
-  float:left;
-  
-  height:100%;
-  line-height:2.6em;
-  position:relative;
-}
-
-
-
-
-
-/* applying style to topbar items */
-nav>ul>li>a{
-  padding:0 1.6em;
-}
-nav>ul>li a{
-  display:block;
-  color:#ecf0f1;
-}
-
-nav>ul>li:first-child:hover{
-  border-top-left-radius:3px;
-  border-bottom-left-radius:3px;
-  
-}
-
-nav>ul>li>ul>li:last-child:hover,
-nav>ul>li>ul>li>ul>li:last-child:hover,
-nav>ul>li>ul>li>ul>li>ul>li:last-child:hover{
-   border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;  
-}
-nav>ul>li>ul{
-  position:absolute;
-  left:-9999px;
-  white-space:nowrap;
-  background:#fff;
-  border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;
-  transition:.3s left ease-in-out;
-} 
-nav>ul>li>ul>li>ul,nav>ul>li>ul>li>ul>li>ul{
-  position:absolute;
-  left:-9999px;
-  white-space:nowrap;
-  background:#fff;
-  border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;
-  transition:.3s left ease-in-out;
-}
-
-
-
-
-/* padding for each submenu lists */
-nav>ul>li>ul>li, nav>ul>li>ul>li>ul>li,
-nav>ul>li>ul>li>ul>li>ul>li{
-  padding:0 1em;
-
-}
-/* applying different colors for submenu */
-nav>ul>li>ul,
-nav>ul>li>ul>li>ul{
+    top: 20px;
+    right: -200px;
     background-color: #f1f1f1;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    
+    z-index: 1;
 }
 
-
-/* revealing first level submenu */
-nav>ul>li:hover>ul{
-    left:0; 
-    top:40;
-	transition:.3s left ease-in-out;
-}
-/* revealing second level submenu */
-nav>ul>li>ul>li:hover>ul{
-   left:100%;
-   top:0;
-   transition:.3s left ease-in-out;
-   z-index: 1;
-}
-/* revealing third submenu */
-nav>ul>li>ul>li>ul>li:hover>ul{
-  left:100%;
-  top:0%;
- transition:.3s left ease-in-out;
-}
-/* positioning the angle arrows towards right inside submenu*/
-.position-expand-arrow{
-  position:absolute !important;
-  right:1em !important;
-  line-height:2.6em !important;
-}
-/* Clearing floats */
-nav ul::after, nav ul::before{
-  content:"";
-  min-width: 250px;
-  display:table;
-}
-nav ul::after{
-  clear:both;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-#btn-contact{
-  background-image: url(/assets/img/contact0.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 10px;
-  color: white;
-  text-decoration: none;
-}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+  
+  #ambalaj{
+  margin-left: 35px;
+  }
+  
+ 
 
-article{
-  text-align:center;
-}
-article a{
-  text-decoration:none;
-}
 
 
 /* content styling */
@@ -341,6 +352,9 @@ article a{
     margin: 0 auto;
 
   }
+  nav {
+    padding-top: 0%;
+  }
 
   .logo {
     margin-top: 30px;
@@ -415,6 +429,118 @@ article a{
     margin: 0 auto;
     overflow: auto;
     padding: 15px 0 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  #app {
+    margin: 0 30px 0;
+  }
+
+  .wrapper{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wrapper a {
+    width: 270px;
+  }
+
+  .wrapper img {
+    width: 270px;
+  }
+
+  
+}
+
+@media (max-width: 900px) {
+  body {
+    font-size: 10px;
+  }
+
+  .menu-container-inner {
+    max-width: 900px;
+    margin: 0 auto;
+
+  }
+  nav {
+    padding-top: 0%;
+  }
+
+  
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-container {
+    position: absolute;
+    top: 120px;
+    max-width: 600px;
+  }
+
+  .btn.btn-default.btn-lg {
+    font-size: 10px;
+  }
+
+  .header {
+    height: 200px;
+  }
+
+  nav>ul>li {
+    float: left;
+    height: 100%;
+    line-height: 1.8em;
+    position: relative;
+  }
+
+  .position-expand-arrow {
+    position: absolute !important;
+    right: 1em !important;
+    line-height: 1.8em !important;
+  }
+
+  nav>ul>li>ul {
+    font-size: 10px;
+  }
+
+  nav ul::after, nav ul::before {
+    content: "";
+    min-width: 170px;
+    display: table;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  .footer-li {
+    font-size: 8px;
+    margin-bottom: 8px;
+  }
+
+
+  .fstrip {
+    margin-left: 50px;
+    height: 100px;
+  }
+
+  .content-container {
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 15px 0 0;
+  }
+
+  #top{
+    width: 90%;
   }
 
   .title {
